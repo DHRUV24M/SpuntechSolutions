@@ -1,0 +1,68 @@
+.map-contact{
+	width: 100%;
+	height: 451px;
+}
+@media (max-width: 1024.98px){
+	.map-contact{
+		height: 400px;
+	}
+}
+@media (max-width: 766.98px){
+	.map-contact{
+		height: 300px;
+	}
+}
+.tt-contact-wrapper{
+	padding: 5px 77px 0;
+	margin-top: -40px;
+}
+.tt-contact-wrapper [class^=col-]{
+	margin-top: 40px;
+}
+@media (max-width: 1229.98px){
+	.tt-contact-wrapper{
+		padding: 15px 20px 0;
+	}
+}
+@media (max-width: 1024.98px){
+	.tt-contact-wrapper [class^=col-]{
+		margin-top: 20px;
+	}
+}
+.tt-contact{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+.tt-contact .tt-icon{
+	color: var(--default_color);
+	font-size: 26px;
+	line-height: 1;
+	position: relative;
+	top: 4px;
+}
+.tt-contact .tt-content{
+	margin-left: 15px;
+}
+.tt-contact .tt-content a{
+	color: var(--default_text_color);
+}
+.tt-contact .tt-title{
+	font-size: 16px;
+	line-height: 26px;
+	color: var(--default_color02);
+	font-family: var(--default_font2);
+	font-weight: 600;
+	padding: 0 0 5px 0;
+}
+@media (max-width: 1024.98px){
+	.tt-contact .tt-icon{
+		font-size: 20px;
+	}
+	.tt-contact .tt-content{
+		margin-left: 13px;
+	}
+}
